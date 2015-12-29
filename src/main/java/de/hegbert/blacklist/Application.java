@@ -1,4 +1,4 @@
-package hello;
+package de.hegbert.blacklist;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
+
+import de.hegbert.blacklist.backend.Customer;
+import de.hegbert.blacklist.backend.CustomerRepository;
 
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {

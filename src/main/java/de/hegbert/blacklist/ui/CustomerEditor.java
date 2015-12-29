@@ -1,4 +1,4 @@
-package hello;
+package de.hegbert.blacklist.ui;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -12,6 +12,9 @@ import com.vaadin.ui.CssLayout;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.ValoTheme;
+
+import de.hegbert.blacklist.backend.Customer;
+import de.hegbert.blacklist.backend.CustomerRepository;
 
 /**
  * A simple example to introduce building forms. As your real application is

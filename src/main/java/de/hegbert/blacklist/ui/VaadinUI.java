@@ -1,4 +1,4 @@
-package hello;
+package de.hegbert.blacklist.ui;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
@@ -14,6 +14,9 @@ import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
+
+import de.hegbert.blacklist.backend.Customer;
+import de.hegbert.blacklist.backend.CustomerRepository;
 
 @SpringUI
 @Theme("valo")
